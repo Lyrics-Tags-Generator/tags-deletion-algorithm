@@ -1,6 +1,6 @@
 # Tags Deletion Algorithm
 
-> The alogrithm we use for our tags deletion functionality, written in Java.
+> The alogrithm we implemented for our tags deletion functionality, written in Java.
 
 ## Important
 
