@@ -23,6 +23,7 @@ public class TagsDeletionAlgorithm {
         // Checks if ',' is included in the tags prompt string
         if (!tags.contains(",")) {
             System.out.println("Tags must be separated by a ','.");
+            scanner.close();
             return;
         }
 
@@ -40,6 +41,7 @@ public class TagsDeletionAlgorithm {
         if (tagsLength <= 500) {
             System.out.println("Provided tags do not exceed the 500 character limit.");
             System.out.println("Length: " + countTagsLength(joinTagsList(tagsList)));
+            scanner.close();
             return;
         }
 
